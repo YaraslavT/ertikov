@@ -1,0 +1,222 @@
+@keyframes pulsate-bck {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cart_top {
+  background-image: url(img/headbasket.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  margin-bottom: 64px;
+}
+   
+.cart_product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  row-gap: 48px;
+  gap: 32px;
+ }
+  
+    .products {
+    max-width: 768px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    .number {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    padding-right: 15px;
+    }
+    .product_one {
+      display: flex;
+      flex-direction: row;
+      padding-top: 32px;
+      padding-bottom: 32px;
+      border-top: 0.5px solid #CACDD8;
+      justify-content: start;
+    }
+ 
+      .cartProduct {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 32px;
+      }
+  
+    .cartProduct_content{
+      width: 276px;
+      margin-left: 32px;
+      
+
+    }
+
+    .cartProduct_title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+      margin-bottom: 14px;
+    }
+  
+    .cart_price {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #050505;
+    }
+  
+    .box_cartbtn {
+      margin-top: 15px;
+      display: flex;
+      justify-content: flex-start;
+      gap: 20px;
+    }
+  
+    .product_btn {
+      font-size: 14px;
+      line-height: 210%;
+      text-decoration-line: underline;
+      box-sizing: border-box;
+      color: #000000;
+    }
+  
+    .product_number {
+      box-sizing: border-box;
+      outline: none;
+      background: #F7F6F6;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 210%;
+      color: #000000;
+      border: none;
+      font-family: 'Poppins', sans-serif;
+      width: 71px;
+      height: 51px;
+      padding-left: 30px;
+      margin-left: auto;
+    }
+  
+  .prd_buttons {
+    margin-top: auto;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  .prod_btn {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 50px;
+    width: 200px;
+    height: 37px;
+    border: 1px solid #020202;
+    &:hover {animation: heartbeat 1.5s ease-in-out infinite both;}
+  }
+  
+  .prod_btn_clear {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 50px;
+    width: 200px;
+    height: 37px;
+    border: 1px solid #020202;
+    background-color: inherit;
+  }
+  
+  .prod_btn_purchases {
+    color: #FFFFFF;
+    background: #000000;
+  }
+  
+  .cart_form {
+    box-sizing: border-box;
+    max-width: 379px;
+    height: 578px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #F7F6F6;
+    border-radius: 20px;
+    padding: 42px 30px 42px 27px;
+  }
+  
+  .cart_form_title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 35px;
+  }
+  
+  .cart_form_input {
+    outline: none;
+    border: none;
+    font-size: 14px;
+    line-height: 17px;
+    border-bottom: 1px solid #CACDD8;
+    background: transparent;
+    margin-bottom: 41px;
+    max-width: 288px;
+    width: 100%;
+    
+  }
+  .cart_form_input::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 14px;
+    line-height: 17px;
+  }
+ 
+  
+  .cart_form_price {
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 18px;
+    margin-top: 64px;
+  }
+  
+  .cart_form_btn {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 50px;
+    width: 290px;
+    height: 41px;
+    border: 1px solid #020202;
+    color: #020202;
+    background-color: #F7F6F6;
+    margin: 0 auto;
+    animation: pulsate-bck 1s ease-in-out infinite both;
+    
+  }
+  

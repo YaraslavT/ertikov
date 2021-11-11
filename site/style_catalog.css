@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.center { 
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.top{
+    height: 400px;
+    background-image: url(imgcatalog/bg_catalog\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+header{
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+
+}
+.top_input{
+    height: 41px;
+    width: 288px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-top: 10.5px;
+    padding-bottom: 10.5px;
+    padding-left: 32px;
+
+}
+.top_input::placeholder{
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.head_link{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.head_link:hover{
+    border-bottom: 1px solid #000;
+}
+
+
+.hs1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-top: 126px;
+}
+
+.mid_nav_box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+.mid_link_box{
+    display: flex;
+    gap: 10px;
+
+}
+.link_midnav{
+text-decoration: none;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+color: #000000;
+}
+
+.select_mid{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 41px;
+    width: 288px;
+
+}
+
+.linkcatalog{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+.product-box{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.product-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+.product{
+    width: 378px;
+
+}
+.product_heading{   
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.product_text{
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+    margin-bottom: 12px;
+
+}
+
+.price{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #050505;
+
+}
+
+.link_more{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+footer{    
+    height: 207px;
+    background: #F7F6F6;
+    margin-top: 64px;
+
+}
+.footer-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 32px;
+    
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.linkfoot_box{
+    
+    display: flex;
+    margin-top: 4px;
+    gap: 20px;
+}
+
+.logo_foot{
+    width: 198px;
+    height: 44px;
+
+}
+
+.footikon{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    
+}
+
+.footlink{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+    text-decoration: none;    
+}
+.footlink:hover{
+    border-bottom: 1px solid #000;
+}
+
+.footnews{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 3px;
+
+}
+
+.putemail{
+    font-family: 'Roboto', sans-serif;
+    height: 46px;
+    width: 275px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #C4C4C4;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    
+}
+
+.buttonsub{
+    font-family: 'Roboto', sans-serif;
+    height: 46px;
+    width: 275px;
+    background: rgba(222,215,215,0.41);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    
+}

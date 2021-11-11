@@ -1,0 +1,42 @@
+@media (max-width: 1023px) {
+    // тут стили для планшета
+
+.top {
+    background-image: url(img/top1.jpg);
+}
+
+.center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+
+}
+
+.hs1{
+    max-width: 786px;
+}
+
+.for_item{
+    max-height: 266px;
+}
+
+.footer_logo{
+    display: none;
+}
+.product-content{
+    row-gap: 30px;
+}
+// стили для главной выше
+
+
+}
+
+@media (min-width:767px) and (max-width: 833px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    
+    }
+    .product{
+        width: 345px;
+    }
+}
