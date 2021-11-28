@@ -1,7 +1,8 @@
-"use strict";
+function randomNumber (m,n)
+{
+  m = parseInt(m);
+  n = parseInt(n);
+  return Math.floor( Math.random() * (n - m + 1) + m ) ;
+}
 
-let product = 'Кресло Vilora';
-let price = 24000;
-let rubu = `${product}, цена ${price} рублей`;
-
-alert (rubu);
+console.log(randomNumber(-5,-50));
